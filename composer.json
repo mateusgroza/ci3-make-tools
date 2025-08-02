@@ -1,0 +1,26 @@
+{
+    "name": "mateusgroza/ci3-make-tools",
+    "description": "CLI tools for automatically generating files in CodeIgniter 3 projects (make-style commands).",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mateus Gabriel da roza",
+            "email": "mateusgabrieldaroza@gmail.com",
+            "homepage": "https://github.com/mateusgroza"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MakeTools\\": "src/MakeTools/",
+            "MakeTools\\Commands\\": "src/MakeTools/Commands/"
+        }
+    },
+    "bin": [
+        "bin/make"
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
