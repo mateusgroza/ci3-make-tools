@@ -7,7 +7,7 @@ A CodeIgniter 3 development toolkit that provides convenient command-line tools 
 Install the package via Composer:
 
 ```bash
-composer install mateusgroza/ci3-make-tools
+composer require mateusgroza/ci3-make-tools
 ```
 
 ## Configuration
