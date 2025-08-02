@@ -64,7 +64,7 @@ class EnvCommand {
                 exit(6);
             }
         
-            $valToInsert = ($file === $projectRoot . '/application/config/env.php') ? $value : '';
+            $valToInsert = ($file === $projectRoot . '/env.php') ? $value : '';
             $valToInsert = addslashes($valToInsert);
         
             $insertion = "\n\n";
